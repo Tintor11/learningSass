@@ -1,4 +1,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Lato:wght@400;700&family=Rubik:ital,wght@0,700;1,400&display=swap");
+.btn-default, .btn-danger, .btn-success, .btn-warning, .btn-info, .btn-dark {
+  display: inline-block;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-default {
+  background-color: #444444;
+  color: #ffffff;
+}
+
+.btn-danger {
+  background-color: #f00008;
+  color: #ffffff;
+}
+
+.btn-success {
+  background-color: #18b304;
+  color: #ffffff;
+}
+
+.btn-warning {
+  background-color: #f77a05;
+  color: #ffffff;
+}
+
+.btn-info {
+  background-color: #09e0b1;
+  color: #000000;
+}
+
+.btn-dark {
+  background-color: #000000;
+  color: #ffffff;
+}
+
 /* FONT PROPERTY
 
 font-family: 'Josefin Sans', sans-serif;
@@ -450,15 +491,10 @@ and open the template in the editor.
   background: #ffffff;
 }
 
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 05.10.2021., 10.56.01
-    Author     : Dusan Bojan
-*/
+.service-section {
+  padding: 30px 0;
+}
+
 .comment-section {
   padding: 30px 0;
   background: #ffffff;
